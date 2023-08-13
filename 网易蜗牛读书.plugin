@@ -1,0 +1,13 @@
+#!name=网易蜗牛读书
+#!desc=尊贵vip
+#!openUrl=https://github.com/Dgpws/Maike
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/wnds.png
+#!homepage=https://yfamily.ml
+#!author= 至简
+
+
+[MITM]
+hostname=p.du.163.com
+[Script]
+
+http-response ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-body=1 ,script-path=https://raw.githubusercontent.com/deezertidal/private/main/wnds.js
