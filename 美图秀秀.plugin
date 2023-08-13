@@ -1,0 +1,12 @@
+#!name=美图秀秀
+#!desc=尊贵vip
+#!openUrl=https://github.com/Dgpws/Maike
+#!homepage=https://yfamily.ml
+#!author=至简
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/meituxx.png
+[MITM]
+hostname= api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com
+[Script]
+
+
+http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ requires-body=1,script-path=https://github.com/Dgpws/Maike/new/main.js
