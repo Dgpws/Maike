@@ -9,4 +9,4 @@
 hostname=*.wtzw.com
 
 [Script]
-http-response ^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ requires-body=1,script-path=https://raw.githubusercontent.com/Dgpws/Maike/main/7mao.js
+http-response ^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ requires-body=1,script-path=https://raw.github.com/Dgpws/Maike/main/7mao.js
