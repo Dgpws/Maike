@@ -6,7 +6,7 @@
 #!homepage=https://yfamily.ml
 
 [Script]
-http-response ^https:\/\/api\.qingning6\.com\/api\/user\/getUserInfo requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/qnhb.js
+http-response ^https:\/\/api\.qingning6\.com\/api\/user\/getUserInfo requires-body=1,script-path=https://github.com/Dgpws/Maike/edit/main/Qingninsj.js
 
 [mitm]
 hostname=api.qingning6.com
