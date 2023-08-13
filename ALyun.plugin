@@ -1,7 +1,7 @@
 #!name=阿里网盘签到token获取
 #!desc=阿里网盘定时签到token获取。详情见#!homepage=https://yfamily.ml
 #!author=至简
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/kuwo.png
+#!icon=https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png
 
 [Script]
 http-request ^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, requires-body=true, timeout=10, enabled=true, tag=阿里网盘token获取
