@@ -1,0 +1,12 @@
+#!name=七猫小说
+#!desc=尊贵vip
+#!openUrl=https://github.com/Dgpws/Maike
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/qmxs.png
+#!homepage=https://yfamily.ml
+#!author= 至简
+
+[MITM]
+hostname=*.wtzw.com
+
+[Script]
+http-response ^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/ requires-body=1,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/QiMaoXiaoShuo.js
