@@ -1,12 +1,11 @@
-#!name=酷我会员
+#!name=酷我音乐
 #!desc=尊贵vip
 #!openUrl=https://github.com/Dgpws/Maike
-#!homepage=https://yfamily.ml
 #!author=至简
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/kuwosvip.png
-
-[Mitm]
-hostname =vip1.kuwo.cn
+#!icon=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Files/icon.png
 
 [Script]
-http-response ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) requires-body=1, script-path=https://github.com/Dgpws/Maike/edit/main/Kuwo.js, tag=酷我年费会员
+http-response ^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* script-path=https://github.com/Dgpws/Maike/edit/main/Kuwo.js,requires-body=true, timeout=10, tag=酷我音乐
+
+[MITM]
+hostname = *.kuwo.cn, *.lrts.me
