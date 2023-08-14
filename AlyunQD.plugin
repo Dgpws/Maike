@@ -4,4 +4,4 @@
 #!icon=https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png
 
 [Script]
-cron "12 0 * * *" script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, tag=阿里网盘签到
+cron "12 0 * * *" script-path=https://github.com/Dgpws/Maike/edit/main/AlyunQD.js, tag=阿里网盘签到
