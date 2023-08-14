@@ -16,7 +16,7 @@
 #微信读书
 http-response ^http[s]?:\/\/(i|res)\.weread\.qq.com\/(login|pay\/balance|book\/chapterInfos|user\/profile\?articleBookId|upload\?type\=avatar).*$ script-path=https://github.com/Dgpws/Maike/edit/main/Weixints.js, requires-body=true, timeout=60 ,tag=wxds_14
 
-http-request ^http[s]?:\/\/(i\.weread|rmonitor)\.qq\.com\/(login|).*$ script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, requires-body=true, timeout=60 ,tag=replaceBody_15, argument="%22deviceId%22%20%3A%20%22%5B%5E%22%5D%2B->%22deviceId%22%3A%228b024b09b8b9ccb1dc6bf030158e02fb"
+http-request ^http[s]?:\/\/(i\.weread|rmonitor)\.qq\.com\/(login|).*$ script-path=https://github.com/Dgpws/Maike/edit/main/Body.js, requires-body=true, timeout=60 ,tag=replaceBody_15, argument="%22deviceId%22%20%3A%20%22%5B%5E%22%5D%2B->%22deviceId%22%3A%228b024b09b8b9ccb1dc6bf030158e02fb"
 
 [MITM]
 
