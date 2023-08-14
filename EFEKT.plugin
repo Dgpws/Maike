@@ -7,4 +7,4 @@
 [MITM]
 hostname=api.apphud.com
 [Script]
-http-response ^https:\/\/api\.apphud\.com\/v1\/subscriptions requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/EFEKT.js
+http-response ^https:\/\/api\.apphud\.com\/v1\/subscriptions requires-body=1,script-path=https://github.com/Dgpws/Maike/edit/main/EFEKT.js
