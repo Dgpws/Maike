@@ -1,0 +1,22 @@
+#!name=微信听书
+#!desc=尊贵vip
+#!homepage=https://yfamily.ml
+#!author= 至简
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1021.png
+
+[Rewrite]
+
+^http[s]?:\/\/i\.weread\.qq\.com\/device\/logout - reject-200
+^http[s]?:\/\/i\.weread\.qq\.com\/updateConfig - reject-200
+^http[s]?:\/\/res\.weread\.qq.com\/upload\?type\=avatar - reject-200
+
+[Script]
+
+#微信读书
+http-response ^http[s]?:\/\/(i|res)\.weread\.qq.com\/(login|pay\/balance|book\/chapterInfos|user\/profile\?articleBookId|upload\?type\=avatar).*$ script-path= https://github.com/Dgpws/Maike/edit/main/Weixints. js, requires-body=true, timeout=60 ,tag=wxds_14
+
+http-request ^http[s]?:\/\/(i\.weread|rmonitor)\.qq\.com\/(login|).*$ script-path= https://github.com/Dgpws/Maike/edit/main/Weixints.js, requires-body=true, timeout=60 ,tag=replaceBody_15, argument="%22deviceId%22%20%3A%20%22%5B%5E%22%5D%2B->%22deviceId%22%3A%228b024b09b8b9ccb1dc6bf030158e02fb"
+
+[MITM]
+
+hostname = *.weread.qq.com,rmonitor.qq.com
