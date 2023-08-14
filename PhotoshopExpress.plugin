@@ -9,4 +9,4 @@
 hostname=lcs-mobile-cops.adobe.io
 
 [Script]
-http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/photoshop.js
+http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile requires-body=1,script-path=https://github.com/Dgpws/Maike/edit/main/PhotoshopExpress.js
