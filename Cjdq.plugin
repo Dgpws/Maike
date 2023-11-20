@@ -1,5 +1,6 @@
-#!name = 插件大全
+#!name = 插件仓库
 #!desc = 一站式插件仓库任君选择，一键安装，方便快捷。使用前请在本插件的详情页面为[PROXY]项分配代理策略。
+#!openUrl = https://🎈.com
 #!openUrl = https://getupnote.com/share/notes/zSn1ShBmzNYISKcTgjXE5oHMrNf2/4a3b6152-3dd3-46da-b479-8c30ef6ef8d1
 #!author = 至简主义
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
@@ -11,8 +12,7 @@ DOMAIN, loon-plugin.vercel.app, PROXY
 DOMAIN, raw.githubusercontent.com, PROXY
 
 [Script]
-http-request ^https?:\/\/xn--ck8h\.com script-path = https://raw.githubusercontent.com/Loon0x00/Loon-Gallery/master/backend/gallery.js, requires-body = true, timeout = 120, tag = Loon插件仓库
+http-request ^https?:\/\/xn--ck8h\.com script-path = https://raw.githubusercontent.com/Dgpws/Maike/main/Cjdqck.js, requires-body = true, timeout = 120, tag = Loon插件仓库
 
 [Mitm]
 hostname = xn--ck8h.com
-
