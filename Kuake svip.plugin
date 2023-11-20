@@ -4,7 +4,7 @@
 #!author=至简
 [Script]
 
-http-response ^https?:\/\/drive.*\.quark\.cn\/.+\/clouddrive\/(member.+|distribute\/detail.+|capacity\/growth\/info) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/kuake.js, requires-body=true, timeout=60 ,tag=kuake_8
+http-response ^https?:\/\/drive.*\.quark\.cn\/.+\/clouddrive\/(member.+|distribute\/detail.+|capacity\/growth\/info) script-path=https://raw.githubusercontent.com/Dgpws/Maike/main/Kuake.js, requires-body=true, timeout=60 ,tag=kuake_8
 
 [MITM]
 
