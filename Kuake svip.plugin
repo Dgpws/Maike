@@ -1,7 +1,7 @@
 #!name=kuake
 #!desc=kuake
 #!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1093.png
-
+#!author=至简
 [Script]
 
 http-response ^https?:\/\/drive.*\.quark\.cn\/.+\/clouddrive\/(member.+|distribute\/detail.+|capacity\/growth\/info) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/kuake.js, requires-body=true, timeout=60 ,tag=kuake_8
